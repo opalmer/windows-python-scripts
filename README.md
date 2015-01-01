@@ -11,8 +11,8 @@ Requirements
 This repository requires a few things to be preinstalled on
 the Windows system:
 
-    * curl (binary should be on %PATH%)
-    * 7-zip
+* curl (binary should be on %PATH%)
+* 7-zip
 
 There are some hard coded paths in the scripts however 
 most of them can be easily modified.
