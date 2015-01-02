@@ -9,9 +9,9 @@ Requirements
 ============
 
 This repository requires a few things to be preinstalled on
-the Windows system:
+the Windows system with the binaries on %PATH%:
 
-* curl (binary should be on %PATH%)
+* curl
 * 7-zip
 
 There are some hard coded paths in the scripts however 
