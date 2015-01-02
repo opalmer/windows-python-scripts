@@ -69,7 +69,6 @@ goto :eof
     set ARCH=%~3
     set PYTHON=%PREFIX%\%VERSION%-%ARCH%\python.exe
     set PYWIN32_INSTALLER=%SOURCES%\modules\pywin32-219-py%SHORT_VERSION%-%ARCH%.exe
-    set OUTPUT_DIR=%SOURCES%\modules\pywin32-219-py%SHORT_VERSION%-%ARCH%
     if not exist %PYTHON% (
         echo ERROR: %PYTHON% does not exist
         goto :eof
